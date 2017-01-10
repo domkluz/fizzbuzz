@@ -36,12 +36,3 @@ while count != (upperlimit+1):
     else:
         print(count)
     count += 1
-
-
-
-# Open a file
-fo = open("foo.py", "w")
-fo.write( "Python is a great language.\nYeah its great!!\n")
-
-# Close opend file
-fo.close()
